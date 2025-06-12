@@ -39,6 +39,39 @@ Extract GFF Data: Convert GFF3 files to BED format to extract mRNA entries.
 ### Then run the following command for every species combo: 
 `python -m jcvi.compara.catalog ortholog species_a_parsed species_b_parsed --no_strip_names `
 
+(15 combos for CD300 cetacean plot): 
+
+Human - Blue Whale 
+
+Human - Sperm Whale
+
+Human - Vaquita
+
+Human - Camel
+
+Human - Cow
+
+Blue Whale - Sperm Whale
+
+Blue Whale - Vaquita
+
+Blue Whale - Camel
+
+Blue Whale - Cow
+
+Sperm Whale - Vaquita
+
+Sperm Whale - Camel
+
+Sperm Whale - Cow
+
+Vaquita - Camel
+
+Vaquita - Cow 
+
+Camel - Cow 
+
+
 # Parsing the anchor files: 
 - You should now have several anchor files that you need to parse. I have created several jupyter notebooks to run several times to get formatted files with synteny and genomic location. Make sure to match to correct bed files.
 
