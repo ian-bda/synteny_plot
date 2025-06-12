@@ -22,6 +22,7 @@ Balaenoptera musculus (Blue Whale): Chromosome 20 (60,304,989 bp)
 
 # MCSCAN formatting:
 - This part is taken directly from https://github.com/tanghaibao/jcvi/wiki/Mcscan-(python-version)
+- The scripts are all available there.
   
 ### Data Preparation:
 Extract GFF Data: Convert GFF3 files to BED format to extract mRNA entries.
