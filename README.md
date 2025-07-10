@@ -73,16 +73,18 @@ Camel - Cow
 
 
 # Parsing the anchor files: 
-- You should now have several anchor files that you need to parse. You need to parse the each anchor file to get formatted files with synteny and genomic location. Make sure to match to correct bed files.
+- You should now have several anchor files that you need to parse. You need to parse each anchor file from each pairing above to get formatted csv files with synteny and genomic location. Make sure to match to correct bed files.
 
-  Anchors_parsed.ipynb
-
-  and then
-
-  filter_synteny.ipynb to grab specific chromosome pairings you want from each parsed file
+Run:
+  ```Anchors_parsed.ipynb```
+For every anchor file. Make sure to match to correct bed files.
+  
+- You can then grab specific chromosome pairings you want from each parsed csv file
+  
+ ``` filter_synteny.ipynb```
 
 # Plot in R
-Takes every 
+Takes every chromosome specific, parsed csv file and converts it into a circular macrosynteny plot
 macrosynteny_plot.r
 
 
