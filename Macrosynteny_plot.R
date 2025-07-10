@@ -3,7 +3,7 @@ library(dplyr)
 library(readr)
 
 # Set the directory containing your CSV files
-setwd('C:/Users/ibirc/OneDrive/Documents/Projects/CD_300/Cetaceans/synteny_results/parsed_synteny_chromosomes')
+setwd('xxxx')
 
 # List all CSV files
 file_list <- list.files(pattern = "*.csv")
