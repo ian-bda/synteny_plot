@@ -73,7 +73,7 @@ Camel - Cow
 
 
 # Parsing the anchor files: 
-- You should now have several anchor files that you need to parse. I have created several jupyter notebooks to run several times to get formatted files with synteny and genomic location. Make sure to match to correct bed files.
+- You should now have several anchor files that you need to parse. You need to parse the each anchor file to get formatted files with synteny and genomic location. Make sure to match to correct bed files.
 
   Anchors_parsed.ipynb
 
@@ -82,6 +82,7 @@ Camel - Cow
   filter_synteny.ipynb to grab specific chromosome pairings you want from each parsed file
 
 # Plot in R
+Takes every 
 macrosynteny_plot.r
 
 
