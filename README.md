@@ -79,9 +79,8 @@ Run:
   ```Anchors_parsed.ipynb```
 For every anchor file. Make sure to match to correct bed files.
   
-- You can then grab specific chromosome pairings you want from each parsed csv file
-  
- ``` filter_synteny.ipynb```
+- You can then grab specific chromosome pairings you want from each parsed csv file:
+``` filter_synteny.ipynb```
 
 # Plot in R
 Takes every chromosome specific, parsed csv file and converts it into a circular macrosynteny plot
