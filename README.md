@@ -5,7 +5,7 @@ Here we use the basics of MCSCAN (python version) to develop a circularized macr
 
 Pick 4-6 species of interest. Make sure they have chromosomal level gff files. 
 
-The example we will be using is analyzing the conserved syntney for cetacean CD300 gene family. 
+The example we will be using is using 3 cetacean species, 2 terrestrial artiodactyls, and a human to analyze the conserved syntnic regions for the CD300 immune gene family cluster.  
 
 # Find Chromosomes Containing the CD300 Gene Cluster (or your gene of interest)
 Phocoena sinus (Vaquita): Chromosome 20 (58,878,645 bp)
